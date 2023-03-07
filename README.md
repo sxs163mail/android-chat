@@ -17,7 +17,7 @@
 
 + 完全kotlin语言
 + 基于MVVM开发
-+ 使用了什么框架自己看gradle吧~~
++ fresco/flexbox/viewpager2/drawlayer/preference/XPopup/okhttp/retrofit2/permissionX/Java-WebSocket/recyclerview
 
 #### 开发计划
 
