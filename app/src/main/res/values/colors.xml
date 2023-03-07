@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="divider">#11000000</color>
+
+    <color name="white_level_1">#FFFFFFFF</color>
+    <color name="white_level_2">#99FFFFFF</color>
+    <color name="white_level_3">#66FFFFFF</color>
+    <color name="white_level_4">#3DFFFFFF</color>
+    <color name="white_level_5">#0AFFFFFF</color>
+
+    <color name="lightBlueLevel1">#FF398ade</color>
+
+<!--    01579B-->
+    <color name="main_level_1">#FF3b6ba5</color>
+    <color name="main_level_2">#993b6ba5</color>
+    <color name="main_level_3">#663b6ba5</color>
+    <color name="main_level_4">#3D3b6ba5</color>
+    <color name="main_level_5">#0A3b6ba5</color>
+
+    <color name="red_level_1">#FFFF5219</color>
+
+    <color name="textLevel1">#FF171A1D</color>
+    <color name="textLevel2">#99171A1D</color>
+    <color name="textLevel3">#66171A1D</color>
+    <color name="textLevel4">#3D171A1D</color>
+    <color name="textLevel4_5">#20171A1D</color>
+    <color name="textLevel4_8">#11171A1D</color>
+    <color name="textLevel5">#0A171A1D</color>
+
+    <color name="lightGreenLevel1">#FFC7EDCC</color>
+
+    <color name="greenLevel1">#FF06c755</color>
+    <color name="greenLevel2">#9906c755</color>
+    <color name="greenLevel3">#6606c755</color>
+    <color name="greenLevel4">#3D06c755</color>
+    <color name="greenLevel5">#0A06c755</color>
+</resources>

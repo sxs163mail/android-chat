@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/edit_name"
+        android:icon="@drawable/ic_edit_70_black"
+        android:title="@string/setting_main_edit_name" />
+
+    <item
+        android:id="@+id/set_profile_photo"
+        android:icon="@drawable/ic_camera_add_70_black"
+        android:title="@string/setting_main_set_profile_photo" />
+
+    <item
+        android:id="@+id/log_out"
+        android:icon="@drawable/ic_log_out_70_black"
+        android:title="@string/setting_main_log_out" />
+
+</menu>

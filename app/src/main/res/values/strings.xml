@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Inspiration</string>
+
+    <string name="title_contacts">联系人</string>
+    <string name="title_group">群组</string>
+    <string name="title_settings">设置</string>
+    <string name="title_group_create">新建群组</string>
+
+    <string name="contacts_activity_sorted_by_time">根据最近使用时间排序</string>
+    <string name="contacts_activity_search">搜索</string>
+    <string name="contacts_activity_search_result">找到 %d 个结果</string>
+
+    <string name="group_activity_member_count">%d 个成员</string>
+    <string name="group_activity_group_count">共加入 %d 个群组</string>
+
+    <string name="group_select_activity_sub_title_zero">请选择要添加的成员</string>
+    <string name="group_select_activity_sub_title_selected">已选择 %d 个成员</string>
+    <string name="group_select_activity_search_tips">在通讯录中搜索你想要添加的成员</string>
+
+    <string name="group_create_activity_member_tips">%d 个成员</string>
+    <string name="group_create_activity_name_hint">请输入群名称</string>
+
+    <string name="setting_main_edit_name">修改昵称</string>
+    <string name="setting_main_set_profile_photo">修改头像</string>
+    <string name="setting_main_log_out">退出</string>
+
+    <string name="user_profile_add_contact">添加到通讯录</string>
+    <string name="user_profile_block_user">加入黑名单</string>
+
+    <string name="launch_screen_sub_title">我已阅读并同意 软件许可及服务协议、隐私政策 并授权本软件获得本机手机号码</string>
+    <string name="launch_screen_start_next">开始使用</string>
+
+    <string name="login_phone_phone_number_hint">请输入手机号</string>
+    <string name="login_phone_sub_title">请输入并验证你的手机号用于登录</string>
+    <string name="login_phone_title">手机号登录</string>
+
+    <string name="login_verification_code">请输入验证码</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="资料">
+        <Preference
+            app:key="login_dji_account"
+            app:title="\@mengqi203"
+            app:summary="点击复制用户名"
+            android:icon="@drawable/ic_user_50"
+            />
+        <SwitchPreferenceCompat
+            android:icon="@drawable/ic_notification_50"
+            app:key="notification"
+            app:selectable="true"
+            app:summary="关"
+            app:summaryOn="开"
+            app:title="推送通知" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pu.demo">
+    <!-- 允许应用程序打开网络Socket的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 允许应用程序写入文件的权限 -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" /> <!-- 允许应用程序读取文件的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 允许应用程序获取网络状态信息的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 允许应用程序获取Wi_Fi网络状态信息的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 允许应用程序广播收到短信提醒的权限 -->
+    <uses-permission
+        android:name="android.permission.BROADCAST_SMS"
+        tools:ignore="ProtectedPermissions" /> <!-- 允许应用程序控制振动器的权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 允许应用程序使用照相机的权利 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 允许应用程序录音的权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 前台服务 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name="com.pu.demo.app.App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chat"
+        tools:targetApi="31">
+        <activity
+            android:name="com.pu.demo.ui.login.verification.PhoneVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.login.launch.LaunchScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pu.demo.ui.login.phone.LoginPhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.user.profile.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.setting.main.MainSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.group.create.NewGroupCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.group.select.NewGroupSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.group.list.GroupListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.contacts.list.ContactsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pu.demo.ui.main.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

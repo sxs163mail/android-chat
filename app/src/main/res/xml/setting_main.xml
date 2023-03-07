@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="账号">
+        <Preference
+            android:icon="@drawable/ic_phone_50"
+            app:key="login_dji_account"
+            app:title="+86 185-0047-0700"
+            app:summary="点击更换手机号"
+            />
+        <Preference
+            app:key="login_dji_account"
+            app:title="\@mengqi203"
+            app:summary="修改用户名"
+            />
+        <Preference
+            app:key="login_dji_account"
+            app:title="个性签名"
+            app:summary="设置我的个性签名"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="通用设置">
+        <Preference
+            app:icon="@drawable/ic_notification_50"
+            app:key="icon"
+            app:title="通知设置" />
+        <Preference
+            app:icon="@drawable/ic_security_50"
+            app:key="icon"
+            app:title="安全设置" />
+        <Preference
+            app:icon="@drawable/ic_clock_50"
+            app:key="icon"
+            app:title="存储设置" />
+        <Preference
+            app:icon="@drawable/ic_device_50"
+            app:key="icon"
+            app:title="我的设备" />
+        <Preference
+            app:icon="@drawable/ic_language_50"
+            app:key="icon"
+            app:title="语言设置" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="关于">
+        <Preference
+            app:icon="@drawable/ic_about_50"
+            app:key="icon"
+            app:title="关于我们" />
+    </PreferenceCategory>
+</PreferenceScreen>

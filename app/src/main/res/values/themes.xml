@@ -1,0 +1,44 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Chat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- toolbar 背景色. -->
+        <item name="colorPrimary">@color/main_level_1</item>
+        <!-- toolbar 文字颜色       -->
+        <item name="android:textColorPrimary">@color/textLevel1</item>
+        <!--  状态栏背景色      -->
+        <item name="colorPrimaryDark">?attr/colorPrimary</item>
+        <item name="colorPrimaryVariant">?attr/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_level_2</item>
+        <item name="colorSecondaryVariant">@color/main_level_3</item>
+        <item name="colorOnSecondary">@color/main_level_4</item>
+
+    </style>
+
+    <!--  Toolbar 风格  -->
+    <style name="ToolbarThemeDefault" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!-- Toolbar 按钮控件颜色 -->
+        <item name="android:colorControlNormal">@color/white_level_1</item>
+        <!-- Toolbar 标题颜色 -->
+        <item name="android:textColorPrimary">@color/white_level_1</item>
+        <!-- Toolbar 菜单颜色 -->
+        <item name="android:itemTextAppearance">@style/optionMenuTextAppearance</item>
+
+    </style>
+
+    <style name="ToolbarStyleDefault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <!-- Toolbar 子标题颜色 -->
+        <item name="subtitleTextColor">@color/white_level_2</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Toolbar 菜单颜色 -->
+    <style name="optionMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/textLevel1</item>
+    </style>
+
+</resources>
