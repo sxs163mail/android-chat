@@ -17,9 +17,7 @@
 
 + 完全kotlin语言
 + 基于MVVM开发
-+ kapt
-+ dagger.hilt 注入
-+ 大量的livedata
++ 使用了什么框架自己看gradle吧~~
 
 #### 开发计划
 
