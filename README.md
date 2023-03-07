@@ -49,6 +49,9 @@ ___
 
 # 截图展示
 
-<img src="show/1.jpeg" >
-
-
+<img src="show/1.jpeg" width=256 height=256>
+<img src="show/2.jpeg" width=256 height=256>
+<img src="show/3.jpeg" width=256 height=256>
+<img src="show/4.jpeg" width=256 height=256>
+<img src="show/5.jpeg" width=256 height=256>
+<img src="show/6.jpeg" width=256 height=256>
