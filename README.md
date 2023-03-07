@@ -47,7 +47,23 @@ ___
 ## QQ群交流 590587904
 ## 微信交流 bjhjrj
 
-# 截图展示
+# 部分界面截图展示
 
+### 会话列表
+___
 <img src="show/1.jpeg" width=512 >
+### 新建群组
+___
 <img src="show/2.jpeg" width=512>
+### 联系人列表
+___
+<img src="show/3.jpeg" width=512>
+### 聊天界面
+___
+<img src="show/4.jpeg" width=512>
+### 手机号登录
+___
+<img src="show/5.jpeg" width=512>
+### 开屏页
+___
+<img src="show/6.jpeg" width=512>
