@@ -1,5 +1,4 @@
 # 高仿 Telegram android 客户端UI
-___
 
 #### 适用范围
 + 可以用于学习研究
@@ -62,31 +61,25 @@ ___
 # 部分界面截图展示
 
 ### 会话列表
-___
 
 <img src="show/1.jpeg" width=512 >
 
 ### 新建群组
-___
 
 <img src="show/2.jpeg" width=512>
 
 ### 联系人列表
-___
 
 <img src="show/3.jpeg" width=512>
 
 ### 聊天界面
-___
 
 <img src="show/4.jpeg" width=512>
 
 ### 手机号登录
-___
 
 <img src="show/5.jpeg" width=512>
 
 ### 开屏页
-___
 
 <img src="show/6.jpeg" width=512>
